@@ -253,7 +253,7 @@ table td[data-titulo]::before {
     padding: 20px;
     text-align: center;
     color: white;
-    background-image: url("imagenes/Fondo.png");
+    background-image: url("../bruma-deco-responsive/Imagenes/fondo.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
