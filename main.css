@@ -324,15 +324,17 @@ footer {
     justify-content: center;
     margin: 30px 30px;
     padding: 0;
+    justify-items: center;
 }
 
 /* Newsletter */
 .newsletter {
-    width: 95%;
+    width: max-content;
     max-width: 500px;
     margin: auto;
     background-color: #8f6d45;
     border-radius: 5px;
+    padding: 5px;
 }
 
 .newsletter>h3 {
@@ -442,6 +444,7 @@ footer {
     /* Contacto - Tablet*/
     #seccion-contacto {
         flex-direction: row;
+        margin-bottom: 5px;
     }
 
     .hr-contacto {
@@ -455,7 +458,7 @@ footer {
 
     /* Newsletter - Tablet */
     .contenedor-input {
-        padding: 0 150px;
+        padding: 0 100px;
         width: 100%;
     }
 
@@ -578,16 +581,16 @@ footer {
     /* COMIENZO FOOTER - Laptop */
     footer {
         display: grid;
-        grid-template-columns: 40% 35% 10% 15%;
+        grid-template-columns: 30% 40% 15% 15%;
         margin: 0;
         padding: 0;
     }
 
     /* Newsletter - Laptop */
-    .newsletter {
+    /* .newsletter {
         margin: 20px;
         margin-right: 0;
-    }
+    } */
 
     .nombre-newsletter {
         font-family: 'Roboto Slab', serif;
@@ -608,7 +611,7 @@ footer {
     }
 
     .contenedor-input {
-        padding: 0 98px;
+        padding: 0 50px;
         width: 100%;
     }
 
