@@ -209,43 +209,6 @@ main {
     color: #8f6d45;
 }
 
-/* Seccion "Para casa" "Textil" */
-
-table {
-    width: 100%;
-}
-
-table caption {
-    font-size: 25px;
-    font-weight: bold;
-    text-transform: uppercase;
-    margin: 10px;
-}
-
-table tr {
-    display: flex;
-    flex-direction: column;
-    border: solid 2px hsl(0, 0%, 0%);
-    padding: 5px;
-    margin-bottom: 5px;
-}
-
-table thead {
-    display: none;
-}
-
-table td[data-titulo] {
-    display: flex;
-}
-
-table td[data-titulo]::before {
-    content: attr(data-titulo);
-    width: 120px;
-    font-weight: bold;
-    text-transform: uppercase;
-    float: left;
-}
-
 /* Seccion "Quienes somos" */
 .quienes-somos {
     margin: 0;
