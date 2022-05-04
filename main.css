@@ -359,6 +359,16 @@ textarea {
     transform: rotate(-180deg);
 }
 
+.col-md-8 {
+    align-self: center;
+    text-align: center;
+}
+
+.col-md-8 p {
+    margin-bottom: 0;
+}
+
+
 /* FIN MAIN - Mobile*/
 
 
@@ -495,6 +505,11 @@ footer {
         font-size: 30px;
     }
 
+    .col-md-8 {
+        align-self: center;
+        text-align: left;
+    }
+
     /* Contacto - Tablet*/
     /* #seccion-contacto {
         flex-direction: row;
@@ -622,7 +637,7 @@ footer {
 
     /* Quienes somos - Laptop */
     .quienes-somos {
-        font-size: 40px;
+        font-size: 35px;
         margin: 5px;
         border-radius: 5px;
     }
