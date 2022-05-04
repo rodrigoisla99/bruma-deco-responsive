@@ -299,7 +299,14 @@ textarea {
 }
 
 .form-control {
-    border: 1px solid #8f6d45;
+    border: 3px solid #b49b7f;
+    margin: 0px 10px;
+}
+
+.form-control:hover {
+    transform: scale(1.1);
+    transition-duration: .3s;
+    transition-timing-function: ease;
 }
 
 .preguntas-frecuentes {
