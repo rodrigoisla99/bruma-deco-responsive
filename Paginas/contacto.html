@@ -28,63 +28,50 @@
 
     <!-- Comienzo Header -->
     <header>
-        <div class="contenedor-uno">
-            <h1>Bruma Deco</h1>
-            <input type="checkbox" id="menu-hamburguesa">
-            <label for="menu-hamburguesa">
-                <i class="fa fa-bars" aria-hidden="true"></i>
-            </label>
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><strong class="titulo-web">Bruma Deco</strong></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                    <ul class="navbar-nav mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../Paginas/para-casa.html">Para casa</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../Paginas/textil.html">Textil</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Contacto
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item"
+                                        href="../Paginas/contacto.html">Contactate</a></li>
+                                <li><a class="dropdown-item"
+                                        href="../Paginas/contacto.html">Preguntas frecuentes</a>
+                                </li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                            </ul>
+                        </li>
 
-            <nav class="menu">
-                <a href="../index.html">Inicio</a>
-                <a href="../Paginas/para-casa.html">Para casa</a>
-                <a href="../Paginas/textil.html">Textil</a>
-                <a href="../Paginas/quienes-somos.html">Quienes somos</a>
-                <a href="../Paginas/contacto.html">Contacto</a>
-            </nav>
-        </div>
-
-        <!-- Comienzo header laptop -->
-        <div class="header-laptop">
-
-            <img class="logo-bruma" src="../Imagenes/logo-bruma.png" alt="">
-
-            <nav>
-                <ul>
-                    <li>
-                        <a href="../index.html">Inicio</a>
-                    </li>
-                </ul>
-
-                <ul>
-                    <li>
-                        <a href="../Paginas/para-casa.html">Para casa</a>
-                    </li>
-                </ul>
-
-                <ul>
-                    <li>
-                        <a href="../Paginas/textil.html">Textil</a>
-                    </li>
-                </ul>
-
-                <ul>
-                    <li>
-                        <a href="../Paginas/quienes-somos.html">Quienes somos</a>
-                    </li>
-                </ul>
-
-                <ul>
-                    <li>
-                        <a href="../Paginas/contacto.html">Contacto</a>
-                    </li>
-                </ul>
-
-                <div class="buscar">
-                    <input type="text" placeholder="Buscar" required>
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Buscar</button>
+                    </form>
                 </div>
-            </nav>
-        </div>
+            </div>
+        </nav>
     </header>
     <!-- Fin Header -->
 
