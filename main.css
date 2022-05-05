@@ -16,10 +16,6 @@ hr {
     margin: 0.5rem 0;
 }
 
-.header-laptop {
-    display: none;
-}
-
 /* COMIENZO HEADER - Mobile*/
 
 .titulo-web {
@@ -48,25 +44,30 @@ hr {
     background-color: #8f6d45;
 }
 
-.form-control {
-    border-radius: 20px;
+.form-control-nav {
+    border-radius: 5px;
+    border: 3px solid #b49b7f;
+}
+
+.form-control-nav:hover {
+    transform: scale(1.1);
+    transition-duration: .3s;
+    transition-timing-function: ease;
 }
 
 .btn-outline-success {
     color: #212529;
     border-color: #b49b7f;
-    border-radius: 20px;
+    border-radius: 5px;
 }
 
+.form-control {
+    border-radius: 5px;
+}
 /* FIN HEADER  - Mobile*/
 
 
 /* COMIENZO MAIN - Mobile */
-
-/* main {
-    margin-top: 50px;
-} */
-
 #banner {
     position: relative;
 }
@@ -77,6 +78,7 @@ hr {
 }
 
 #banner .contenedor-uno {
+    width: 80%;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -155,7 +157,7 @@ hr {
 }
 
 .productos {
-    margin: 0px 20px;
+    margin: 0px 20px 20px;
 }
 
 .productos img {
@@ -181,43 +183,6 @@ hr {
     justify-content: center;
 }
 
-/* Seccion "Para casa" "Textil" */
-
-table {
-    width: 100%;
-}
-
-table caption {
-    font-size: 25px;
-    font-weight: bold;
-    text-transform: uppercase;
-    margin: 10px;
-}
-
-table tr {
-    display: flex;
-    flex-direction: column;
-    border: solid 2px hsl(0, 0%, 0%);
-    padding: 5px;
-    margin-bottom: 5px;
-}
-
-table thead {
-    display: none;
-}
-
-table td[data-titulo] {
-    display: flex;
-}
-
-table td[data-titulo]::before {
-    content: attr(data-titulo);
-    width: 120px;
-    font-weight: bold;
-    text-transform: uppercase;
-    float: left;
-}
-
 /* Seccion "Quienes somos" */
 .quienes-somos {
     margin: 0;
@@ -232,60 +197,6 @@ table td[data-titulo]::before {
 }
 
 /* Seccion "Contacto"  */
-/* #seccion-contacto {
-    font-family: 'Roboto Slab', serif;
-    display: flex;
-    flex-direction: column-reverse;
-    align-items: center;
-    justify-content: space-around;
-    margin-top: 60px;
-}
-
-.contacto {
-    width: max-content;
-    margin: 0;
-    background-color: #8f6d45;
-    padding: 5px;
-    border-radius: 5px;
-}
-
-.contacto p {
-    font-weight: bold;
-    margin-top: 10px;
-}
-
-input,
-textarea {
-    outline: none;
-    width: 250px;
-    font-family: 'Roboto Slab', serif;
-    border-radius: 5px;
-    border-color: #b49b7f;
-}
-
-.uno {
-    border: solid 1px;
-    padding: 5px;
-    margin: 0px;
-    width: 300px;
-}
-
-.uno:focus {
-    border-color: #b49b7f;
-}
-
-.boton-uno {
-    text-align: center;
-    padding: 5px;
-    margin: 0px;
-    width: 300px;
-}
-
-.mail-telefono {
-    margin: 50px;
-    text-align: center;
-} */
-
 .formulario-contacto {
     width: 80%;
     margin: auto;
@@ -300,13 +211,6 @@ textarea {
 
 .form-control {
     border: 3px solid #b49b7f;
-    margin: 0px 10px;
-}
-
-.form-control:hover {
-    transform: scale(1.1);
-    transition-duration: .3s;
-    transition-timing-function: ease;
 }
 
 .preguntas-frecuentes {
@@ -342,21 +246,10 @@ textarea {
 .col-md-8 p {
     margin-bottom: 0;
 }
-
-
 /* FIN MAIN - Mobile*/
 
 
 /* COMIENZO FOOTER - Mobile */
-/* footer {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin: 30px 30px;
-    padding: 0;
-    justify-items: center;
-} */
-
 /* Newsletter */
 .newsletter {
     width: max-content;
@@ -444,12 +337,10 @@ textarea {
     text-decoration: none;
     font-family: 'Roboto Slab', serif;
 }
-
 /* FIN FOOTER - Mobile */
 
 
 /* TABLET */
-
 @media screen and (min-width: 768px) {
 
     /* COMIENZO HEADER - Tablet */
@@ -460,12 +351,10 @@ textarea {
         font-size: 35px;
         margin-top: 0px;
     }
-
     /* FIN HEADER - Tablet*/
 
 
     /* COMIENZO MAIN - Tablet*/
-
     /* Slogan - Tablet */
     #banner h2 {
         font-size: 60px;
@@ -486,20 +375,13 @@ textarea {
     }
 
     /* Contacto - Tablet*/
-    /* #seccion-contacto {
-        flex-direction: row;
-        margin-bottom: 5px;
-    } */
-
     .hr-contacto {
         margin-top: 20px;
     }
-
     /* FIN MAIN - Tablet */
 
 
     /* COMIENZO FOOTER - Tablet */
-
     /* Newsletter - Tablet */
     .contenedor-input {
         padding: 0 100px;
@@ -517,6 +399,7 @@ textarea {
 
 }
 
+/* LAPTOP */
 @media screen and (min-width: 1024px) {
 
     /* COMIENZO HEADER - Laptop */
@@ -524,17 +407,15 @@ textarea {
         font-size: 35px;
     }
 
+    .form-control-nav {
+        padding-left: 10px;
+    }
     /* FIN HEADER - Laptop */
 
 
     /* COMIENZO MAIN - Laptop */
-
-    /* main {
-        margin-top: 260px;
-    } */
-
     #banner h2 {
-        font-size: 100px;
+        font-size: 90px;
     }
 
     /* "Para casa" "Textil" - Laptop */
@@ -550,11 +431,6 @@ textarea {
     }
 
     /* Contacto - Laptop */
-    /* #seccion-contacto {
-        justify-content: center;
-        margin-bottom: 5px;
-    } */
-
     .formulario-contacto {
         width: 60%;
         margin: auto;
@@ -565,18 +441,10 @@ textarea {
         margin: auto;
         margin-top: 20px;
     }
-
     /* FIN MAIN - Laptop */
 
 
     /* COMIENZO FOOTER - Laptop */
-    footer {
-        display: grid;
-        grid-template-columns: 30% 40% 15% 15%;
-        margin: 3px;
-        padding: 0;
-    }
-
     footer h3 {
         font-size: 20px;
     }
@@ -640,5 +508,4 @@ textarea {
         grid-template-columns: 33% 33% 33%;
         place-content: center;
     }
-
 }
