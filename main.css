@@ -285,6 +285,7 @@ hr {
     border-color: #b49b7f;
     text-align: center;
     font-size: 10px;
+    margin-top: 2px;
 }
 
 .contenedor-input {
@@ -377,6 +378,10 @@ hr {
     /* Contacto - Tablet*/
     .hr-contacto {
         margin-top: 20px;
+    }
+
+    .mt-2 {
+        margin-top: 0!important;
     }
     /* FIN MAIN - Tablet */
 
