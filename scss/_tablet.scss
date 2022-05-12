@@ -1,0 +1,64 @@
+/* TABLET */
+@media screen and (min-width: 768px) {
+
+    /* COMIENZO HEADER - Tablet */
+
+    /* Titulo -Tablet */
+    h1 {
+        float: left;
+        font-size: 35px;
+        margin-top: 0px;
+    }
+
+    /* FIN HEADER - Tablet*/
+
+
+    /* COMIENZO MAIN - Tablet*/
+    /* Slogan - Tablet */
+    #banner h2 {
+        font-size: 60px;
+    }
+
+    .contenedor-tabla {
+        margin-left: 40px;
+    }
+
+    /* Quienes somos - Tablet*/
+    .quienes-somos {
+        font-size: 30px;
+    }
+
+    .col-md-8 {
+        align-self: center;
+        text-align: left;
+    }
+
+    /* Contacto - Tablet*/
+    .hr-contacto {
+        margin-top: 20px;
+    }
+
+    .mt-2 {
+        margin-top: 0 !important;
+    }
+
+    /* FIN MAIN - Tablet */
+
+
+    /* COMIENZO FOOTER - Tablet */
+    /* Newsletter - Tablet */
+    .contenedor-input {
+        padding: 0 100px;
+        width: 100%;
+    }
+
+    .enviar {
+        width: 40%;
+    }
+
+    /* Direccion - Tablet */
+    .direccion-laptop {
+        display: none;
+    }
+
+}
