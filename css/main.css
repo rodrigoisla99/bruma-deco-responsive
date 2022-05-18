@@ -1,8 +1,8 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap");
 * {
-  margin: 0;
-  padding: 0;
+  margin: 0px;
+  padding: 0px;
   box-sizing: border-box; }
 
 body {
@@ -86,7 +86,7 @@ hr {
   width: 100%;
   height: 100%; }
 
-.telas-dobladas {
+.telas-dobladas, .boton-madera {
   opacity: 1;
   animation-name: fade-in-left;
   animation-iteration-count: 1;
@@ -94,11 +94,7 @@ hr {
   animation-duration: 3s; }
 
 .boton-madera {
-  opacity: 1;
-  animation-name: fade-in-right;
-  animation-iteration-count: 1;
-  animation-timing-function: ease;
-  animation-duration: 3s; }
+  animation-name: fade-in-right; }
 
 @keyframes fade-in-right {
   0% {
@@ -159,11 +155,11 @@ hr {
 
 /* Seccion "Contacto"  */
 .formulario-contacto {
-  width: 80%;
   margin: auto;
+  padding: 10px;
+  width: 80%;
   background-color: #8f6d45;
-  border-radius: 5px;
-  padding: 10px; }
+  border-radius: 5px; }
 
 .form-label {
   margin-bottom: 0; }
@@ -216,21 +212,17 @@ hr {
 /* COMIENZO FOOTER - Mobile */
 /* Newsletter */
 .newsletter {
+  margin: auto;
+  padding: 3px;
   width: max-content;
   max-width: 500px;
-  margin: auto;
   background-color: #8f6d45;
-  border-radius: 5px;
-  padding: 3px; }
+  border-radius: 5px; }
   .newsletter h3 {
     text-align: center;
     font-size: 15px; }
 
-.nombre-newsletter {
-  width: auto;
-  font-size: 10px; }
-
-.correo-newsletter {
+.nombre-newsletter, .correo-newsletter {
   width: auto;
   font-size: 10px; }
 
@@ -351,7 +343,7 @@ hr {
   footer h3 {
     font-size: 20px; }
   /* Newsletter - Laptop */
-  .nombre-newsletter {
+  .nombre-newsletter, .correo-newsletter {
     width: 100%;
     border-radius: 5px;
     border-color: #b49b7f;
