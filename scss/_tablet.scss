@@ -2,13 +2,13 @@
 @media screen and (min-width: 768px) {
 
     h1 {
-        font-size: $spacing+5;
+        font-size: $spacing + 5;
     }
 
     /* COMIENZO MAIN - Tablet*/
     /* Slogan - Tablet */
     #banner h2 {
-        font-size: 60px;
+        font-size: $spacing + 40;
     }
 
     .contenedor-tabla {
@@ -17,7 +17,7 @@
 
     /* Quienes somos - Tablet*/
     .quienes-somos {
-        font-size: 30px;
+        font-size: $spacing + 10;
     }
 
     .col-md-8 {
