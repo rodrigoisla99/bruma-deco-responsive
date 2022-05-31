@@ -1,5 +1,17 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap");
+.red-instagram:hover {
+  border-radius: 5px;
+  box-shadow: inset 0 0 0 10px #CC0060; }
+
+.red-facebook:hover {
+  border-radius: 5px;
+  box-shadow: inset 0 0 0 10px #1773EA; }
+
+.red-whatsapp:hover {
+  border-radius: 5px;
+  box-shadow: inset 0 0 0 10px #45C655; }
+
 * {
   margin: 0px;
   padding: 0px;
@@ -152,7 +164,7 @@ h1 {
   border-radius: 5px;
   text-align: center;
   color: white;
-  background-image: url("../Imagenes/fondo.png");
+  background-image: url("../Imagenes/fondo.webp");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center; }
@@ -190,10 +202,7 @@ h1 {
   margin: auto;
   margin-top: 20px; }
 
-.accordion-item:first-of-type .accordion-button {
-  background-color: #8f6d45; }
-
-.accordion-item:last-of-type .accordion-button.collapsed {
+.accordion-button {
   background-color: #8f6d45; }
 
 .accordion-button:not(.collapsed) {
@@ -301,6 +310,8 @@ h1 {
   /* Quienes somos - Tablet*/
   .quienes-somos {
     font-size: 30px; }
+  .flex-column-reverse {
+    flex-direction: row !important; }
   .col-md-8 {
     align-self: center;
     text-align: left; }
@@ -370,7 +381,7 @@ h1 {
     width: 100%; }
   /* Direccion - Laptop */
   .newsletter {
-    margin-top: 10px; }
+    margin-top: 5px; }
   .direccion {
     display: none; }
   .direccion-laptop {

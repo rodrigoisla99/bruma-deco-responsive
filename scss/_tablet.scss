@@ -20,6 +20,10 @@
         font-size: $spacing + 10;
     }
 
+    .flex-column-reverse {
+        flex-direction: row!important;
+    }
+
     .col-md-8 {
         align-self: center;
         text-align: left;
